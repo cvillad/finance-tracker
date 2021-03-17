@@ -3,7 +3,7 @@ class UsersController < ApplicationController
     @tracked_stocks = current_user.stocks
   end
 
-  def friends
+  def my_friends
     @friends = current_user.friends
   end
 end
